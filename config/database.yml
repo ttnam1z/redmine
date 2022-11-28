@@ -1,0 +1,9 @@
+production:
+  adapter: postgresql
+  database: redmine
+  host: containers-us-west-71.railway.app
+  username: redmine
+  password: "my_password"
+  encoding: utf8
+  schema_search_path: public
+  port: 6454
